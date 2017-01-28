@@ -1,8 +1,8 @@
-const expect = require('chai').expect
+const expect = require('chai').expect;
+const zazu = require('../zazu.json');
 
 describe('zazu.json', () => {
   it('is valid', () => {
-    const zazu = require('../zazu.json')
-    expect(zazu).to.be.an('object')
-  })
-})
+    expect(zazu).to.be.an('object');
+  });
+});
