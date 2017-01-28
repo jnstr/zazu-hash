@@ -1,0 +1,19 @@
+{
+  "name": "zazu-template",
+  "version": "1.0.0",
+  "description": "Zazu plugin for generate hashes using common algorithms (md5, sha1)",
+  "main": "zazu.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha ./test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.13.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-config-brpaz": "^1.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^2.5.3"
+  }
+}

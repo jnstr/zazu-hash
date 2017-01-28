@@ -1,0 +1,33 @@
+{
+  "name": "zazu-hash",
+  "version": "1.0.0",
+  "description": "Zazu plugin for generate hashes using common algorithms (md5, sha1)",
+  "blocks": {
+    "input": [
+      {
+        "id": "hash-help",
+        "type": "Keyword",
+        "keyword": "template",
+        "title": "Hash",
+        "subtitle": "Usage (hash <string>)",
+        "icon": "fa-key"
+      },
+      {
+        "id": "hash",
+        "type": "PrefixScript",
+        "prefix": "hash",
+        "space": true,
+        "args": "Required",
+        "script": "src/hash.js",
+        "connections": ["Copy"]
+      }
+    ],  
+    "output": [
+      {
+        "id": "Copy",
+        "type": "CopyToClipboard",
+        "text": "{value}"
+      }
+    ]
+  }
+}
