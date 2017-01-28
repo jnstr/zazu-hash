@@ -7,10 +7,19 @@
       {
         "id": "hash-help",
         "type": "Keyword",
-        "keyword": "template",
+        "keyword": "hash",
         "title": "Hash",
-        "subtitle": "Usage (hash <string>)",
+        "subtitle": "Generate hashes using common algorithms",
         "icon": "fa-key"
+      },
+      {
+        "id": "hash-clip",
+        "type": "PrefixScript",
+        "prefix": "hash",
+        "space": false,
+        "args": "None",
+        "script": "src/hash.js",
+        "connections": ["Copy"]
       },
       {
         "id": "hash",
