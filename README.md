@@ -17,7 +17,7 @@ Add the plugin in ```~/.zazurc.json``` file:
 ```json
 {
   "plugins": [
-    "brpaz/hash",
+    "brpaz/zazu-hash",
   ]
 }
 ```
